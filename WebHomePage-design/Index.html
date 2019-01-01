@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./CSS/Style.css" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./JS/AOS.js"></script>
+    <link href="./CSS/AOS.css" rel="stylesheet" type="text/css">
+
+    <script src="./JS/Javascript.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+
+        <a href="#" id="logo"></a>
+
+        <nav>
+
+            <a href="#" id="menu-icon"></a>
+
+            <ul class="header-ul">
+
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#Our-Services">Sale</a>
+                </li>
+                <li><a href="#Our-Services">Purchase</a></li>
+                <li><a href="#Our-Services">Trade</a></li>
+                <!-- <li><a href="#Contact">Contact</a></li> -->
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section id="showcase">
+        <div class="fullscreen-video-wrap">
+            <video autoplay loop id="video-background" muted plays-inline>
+                <source src="./imgs//vid.mp4">
+            </video>
+        </div>
+        <div class="container">
+            <div class="container-content">
+            <h3>DELIVERING BEST SALES AND PURCHASE</h3>
+            <p id="p1"class="item-1">Secured</p>
+            <p id="p1"class="item-2">Authenticated</p>
+            <p id="p1"class="item-3">Security Is Our Top Priority</p>
+            <input type="button" value="Sell" id="shop_bttn">
+            <input type="button" value="Purchase" id="shop_bttn">
+            <input type="button" value="Trade" id="shop_bttn">
+        </div>
+        </div>
+
+    </section>
+    <section id="mid_sec">
+        <div class="mid_container">
+            <h2>Welcome to Most secure sales and purchase</h2>
+        </div>
+    </section>
+    <section id="Our-Services">
+        <div class="upper-box">
+            <h1 data-aos="fade-up" data-aos-anchor=".upper-box" data-aos-delay="800">Our Services</h1>
+            <hr class="service-hr" data-aos="fade-up" data-aos-anchor=".upper-box" data-aos-delay="900">
+        </div>
+        <div class="main-area">
+
+            <div class="centered">
+
+                <section class="cards">
+
+                    <article class="card" data-aos="fade-down" data-aos-anchor=".card" data-aos-delay="800">
+                      <div>
+                            <div class="thumbnail">
+                                <!-- <i class="fa fa-usd-circle fa-3x icon-round-border"></i> -->
+                                <i class="fa fa-dollar fa-3x icon-round-border"></i>
+                            </div>
+                            <div class="card-content">
+                                <h2>Sell</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum explicabo consequatur
+                                    consectetur fugit molestias perferendis, sint error iste ut, facilis sunt natus optio
+                                    dolor nesciunt laboriosam obcaecati corporis numquam.</p>
+                                <a id="visit_bttn">Submit An Ad</a>
+                            </div>
+                        </div>
+                            
+                            <!-- .card-content -->
+                      
+                    </article>
+                    <!-- .card -->
+
+                    <article class="card" data-aos="fade-down" data-aos-anchor=".card" data-aos-delay="800">
+                      <div>
+                            <div class="thumbnail">
+                                <i class="fa fa-shopping-bag fa-3x icon-round-border"></i>
+
+                            </div>
+                            <div class="card-content">
+                                <h2>Purchase</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum explicabo consequatur
+                                    consectetur fugit molestias perferendis, sint error iste ut, facilis sunt natus optio
+                                    dolor nesciunt laboriosam obcaecati corporis numquam?</p>
+                                    <a id="visit_bttn" href="./Buy/buy-page.html">Explore Products</a>
+                             
+                                </li>
+                            </div>
+                        </div>
+                            <!-- .card-content -->
+                        
+                    </article>
+                    <!-- .card -->
+
+                    <article class="card" data-aos="fade-down" data-aos-anchor=".card" data-aos-delay="800">
+                        <div>
+                            <div class="thumbnail">
+                                <i class="fa fa-arrows-h fa-3x icon-round-border"></i>
+                            </div>
+                            <div class="card-content">
+                                <h2>Trade</h2>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati recusandae expedita doloribus
+                                    dicta cumque nostrum, autem eaque soluta atque voluptatem est et, laborum dignissimos
+                                    error sequi non? Recusandae, aut alias.</p>
+                                    <a id="visit_bttn">Explore Products</a>
+                               
+                            </div>
+                           </div>
+                            <!-- .card-content -->
+                        
+                    </article>
+                </section>
+
+            </div>
+        </div>
+    </section>
+</body>
+<script type="text/Javascript">
+AOS.init();
+</script>
+<script>
+    var top1 = $('#showcase').offset().top;
+var top2 = $('#mid_sec').offset().top;
+var top3 = $('#Our-Services').offset().top;
+
+$(document).scroll(function() {
+  var scrollPos = $(document).scrollTop();
+ if (scrollPos >= top1 && scrollPos < top2) {
+    $('header').css('background-color', 'transparent');
+  } else if (scrollPos >= top2 && scrollPos < top3) {
+    $('header').css('background-color', '#1c2b4b');
+  } else if (scrollPos >= top3) {
+    $('header').css('background-color', '#1c2b4b');
+  }
+});
+</script>
+</html>

@@ -1,0 +1,153 @@
+@charset "utf-8";
+nav{
+            position: absolute;
+            top:0px;
+            left:0px;
+            height:100%;
+            width:100%;
+            background-color: black;
+        }
+        
+        #atif{
+            position: absolute;
+            top:0%;
+            height:100%;
+            left:0%;
+            width:15%;
+            background-color: blue;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition : all 0.4s ease 0s;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            background-image: url(../images/1280x720-OuH.png);
+            background-size: 190% 100%;
+            cursor: pointer;
+            cursor: hand;
+            text-shadow: 2px 2px black;
+            text-align: center;
+            color:white;
+        }
+        
+        #atif:hover{
+            width:55%;
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            background-size: 100% 100%;
+            font-size:40px;
+        }
+        
+        #atif:hover ~ #akcent{
+            left:55%;
+        }
+        
+        #atif:hover ~ #rehman{
+            left:70%;
+        }
+        #atif:hover ~ #pitbull{
+            left:85%;
+        }
+        
+        #akcent
+		{
+            position: absolute;
+            top:0%;
+            height:100%;
+            left:15%;
+            width:15%;
+            background-color: blue;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition : all 0.4s ease 0s;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            background-image: url(../images/Adrian-Sina-costum-dungi-nike-44-940x626.jpg);
+            background-size: 240% 100%;
+            cursor: pointer;
+            cursor: hand;
+            text-shadow: 2px 2px black;
+            text-align: center;
+            color:white;
+        }
+        
+        #akcent:hover{
+            width:55%;
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            background-size: 100% 100%;
+            font-size:40px;
+        }
+        
+        #akcent:hover ~ #rehman{
+            left:70%;
+        }
+        
+        #akcent:hover ~ #pitbull{
+            left:85%;
+        }
+        
+        #rehman{
+            position: absolute;
+            top:0%;
+            height:100%;
+            left:30%;
+            width:15%;
+            background-color: blue;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition : all 0.4s ease 0s;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            background-image: url(../images/81538de5293f4c914026716c9919a0fe_ft_m.jpg);
+            background-size: 290% 100%;
+            cursor: pointer;
+            cursor: hand;
+            text-shadow: 2px 2px black;
+            text-align: center;
+            color:white;
+        }
+        
+        #rehman:hover{
+            width:55%;
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            background-size: 100% 100%;
+            font-size:40px;
+        }
+        
+        #rehman:hover ~ #pitbull{
+            left:85%;
+        }
+        
+	
+
+        
+        #pitbull{
+            position: absolute;
+            top:0%;
+            height:100%;
+            left:45%;
+            width:15%;
+            background-color: blue;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition : all 0.4s ease 0s;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            background-image:url(../images/Cool-Pitbull-Images.jpg);
+            background-size: 290% 100%;
+            text-shadow: 2px 2px black;
+            text-align: center;
+            color:white;
+            cursor: pointer;
+            cursor: hand;
+        }
+        
+        #pitbull:hover{
+            width:55%;
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            background-size: 100% 100%;
+            font-size:40px;
+        }
+        img
+		{
+			margin-top:5%;
+		}
+

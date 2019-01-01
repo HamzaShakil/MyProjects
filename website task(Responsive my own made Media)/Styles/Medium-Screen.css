@@ -1,0 +1,551 @@
+body{
+    display: block;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstdiv {
+    top: 0px;
+    width: 100%;
+    left: -2px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.firstheading{
+      width: 21%;
+      margin: 11px 54px 11px -1px;
+      font-size: 29px;
+      padding-left: 11px;
+      padding-top: 3px;
+}
+
+
+.firstdiv ul {
+    /*width: 228%;
+    margin: 1.9% -129% 8px;*/
+    width: 222%;
+    margin: 1.9% -124% 8px;
+    height: 53px;
+    /* font-size: 11px; */
+    display: flex;
+    justify-content: flex-start;
+}
+.firstdiv li {
+    border-right: 2px solid;
+}
+.firstdiv ul li a{
+ padding: 19px 6px 16px 9px;
+ padding-left: 7px;
+}
+.firstdiv li a {
+
+display: inline-flex;
+
+padding: 14px 16px;
+
+text-decoration: none;
+
+font-size: 14px;
+}
+#secondiv{
+    width: 100%;
+    height: auto;
+}
+#Slider {
+    /* overflow: hidden; */
+    margin-top: 4%;
+    /* margin-left: 0.5%; */
+    /* width: 94%; */
+    height: 71vh;
+    /* border: gray 1px solid; */
+}
+.pic {
+    height: 71vh;
+    width: 100%;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 16px;
+    /* position: absolute; */
+    bottom: -14px;
+    /* width: 100%; */
+    text-align: center;
+    right: 2%;
+    /* top: 39%; */
+    height: 47px;
+    /* position: relative; */
+    /* bottom: -1%; */
+    margin-left: 3%;
+}
+.text1, .text2 {
+    font-size: larger;
+    font-size: 17px;
+    text-align: center;
+    left: 19%;
+    width: 58%;
+    margin-top: 1px;
+}
+.sliderbtns {
+    margin-top: -94px;
+    position: relative;
+}
+.Slidertxt {
+    margin-top: -40%;
+}
+.button1,.button2 {
+    /* margin-top: 20px; */
+    height: 10vh;
+    font-size: 19px;
+    /* top: 26%; */
+    text-align: center;
+    padding-left: 7px;
+    /* margin-top: -2%; */
+    display: flex;
+    justify-content: flex-start;
+    width: 36px;
+    margin: 24px -31px -35px 0px;
+}
+.button2 {
+    margin-top: -56px;
+    margin-left: 95.9%;
+    width: 36px;
+}
+.thirddiv {
+    background-image: url(../Images/wrap-bg.jpg);
+    width: 100%;
+    height: 77px;
+    left: 0;
+    /* position: absolute; */
+    right: 0;
+    /* top: 206%; */
+    /* margin-top: 1%; */
+    /* border-top: 2px inset; */
+    /* border-bottom: 2px outset; */
+    /* border-color: white; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.secondhead {
+    /* background-color: #0f71ba; */
+    /* background-repeat: repeat-x; */
+    /* border: none; */
+    /* color: white; */
+    /* margin-left: 10px; */
+    width: 14%;
+    /* float: left; */
+    height: 51%;
+    padding: 6px 4px 5px 4px;
+    margin-top: 2.2%;
+    /* border: 1px solid; */
+    font-size: 14px;
+}
+.emailbtn {
+    /* float: right; */
+    /* color: white; */
+    margin-right: -8%;
+    padding: 12px 7px 12px 11px;
+    height: 50%;
+    /* background-color: #0f71ba; */
+    margin-top: 2.2%;
+    width: 10%;
+    font-size: 14px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+#emailbox {
+    position: relative;
+    /* border-color: #333333; */
+    /* border-style: inset; */
+    /* border-color: #4B7B9F; */
+    width: 37%;
+    padding: 6px 3px;
+    /* background-color: white; */
+    /* border: 1px; */
+    /* float: right; */
+    margin: 16px 22px 20px -223px;
+    margin-right: 5px;
+}
+.fourtdiv {
+    margin-bottom: 44px;
+    padding-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+.sub1 {
+    width: 30%;
+    height: 26vh;
+    margin-left: 1%;
+    /* top: 16%; */
+    margin-top: 16%;
+    text-align: center;
+    color: whitesmoke;
+    /* float: left; */
+}
+h1 {
+    font-size: 28px;
+    margin-left: -13px;
+}
+#img1 {
+    width: 70%;
+    margin-left: -17px;
+}
+.p1 {
+    font-size: 14px;
+    width: 84%;
+}
+.sub2 {
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin-top: 16%;
+    /* float: left; */
+    margin-left: -6%;
+}
+#img2 {
+    width: 70%;
+    margin-left: -7px;
+}
+.sub3 {
+    /* float: left; */
+    margin-top: 16%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-left: -8%;
+}
+#img3 {
+    width: 70%;
+    /* padding-left: 5px; */
+    margin-left: -10px;
+}
+body{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstdiv {
+    top: 0px;
+    width: 100%;
+    left: -2px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.firstheading{
+      width: 32%;
+      margin: 13px 54px 10px 0px;
+      font-size: 29px;
+      padding-left: 11px;
+      padding-top: -3px;
+}
+
+
+.firstdiv ul {
+    width: 74vw;
+    margin: -10.1% 34% 2%;
+    height: 8vw;
+    /* font-size: 11px; */
+    display: flex;
+    justify-content: flex-start;
+}
+.firstdiv li {
+    border-right: 2px solid;
+}
+.firstdiv ul li a{
+ padding: 19px 6px 16px 9px;
+ padding-left: 7px;
+}
+.firstdiv li a {
+
+display: inline-flex;
+
+padding: 14px 16px;
+
+text-decoration: none;
+
+font-size: 14px;
+}
+#secondiv{
+    width: 100%;
+    height: auto;
+}
+#Slider {
+    /* overflow: hidden; */
+    margin-top: 4%;
+    /* margin-left: 0.5%; */
+    /* width: 94%; */
+    height: 71vh;
+    /* border: gray 1px solid; */
+}
+.pic {
+    height: 71vh;
+    width: 100%;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 16px;
+    /* position: absolute; */
+    bottom: -14px;
+    /* width: 100%; */
+    text-align: center;
+    right: 2%;
+    /* top: 39%; */
+    height: 47px;
+    /* position: relative; */
+    /* bottom: -1%; */
+    margin-left: 3%;
+}
+.text1, .text2 {
+    font-size: larger;
+    font-size: 17px;
+    text-align: center;
+    left: 19%;
+    width: 58%;
+    margin-top: 1px;
+}
+.sliderbtns {
+    margin-top: -94px;
+    position: relative;
+}
+.Slidertxt {
+    margin-top: -40%;
+}
+.button1,.button2 {
+    /* margin-top: 20px; */
+    height: 10vh;
+    font-size: 19px;
+    /* top: 26%; */
+    text-align: center;
+    padding-left: 7px;
+    /* margin-top: -2%; */
+    display: flex;
+    justify-content: flex-start;
+    width: 36px;
+}
+.button2 {
+    margin-top: -11vh;
+}
+.thirddiv {
+    background-image: url(../Images/wrap-bg.jpg);
+    width: 100%;
+    height: 77px;
+    left: 0;
+    /* position: absolute; */
+    right: 0;
+    /* top: 206%; */
+    /* margin-top: 1%; */
+    /* border-top: 2px inset; */
+    /* border-bottom: 2px outset; */
+    /* border-color: white; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.secondhead {
+    width: 14%;
+    /* float: left; */
+    height: 51%;
+    padding: 6px 4px 5px 4px;
+    margin-top: 2.2%;
+    /* border: 1px solid; */
+    font-size: 14px;
+}
+.subscribe {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 34px;
+    width: 42%;
+}
+.emailbtn {
+    margin-right: 136%;
+    padding: 12px 7px 12px 11px;
+    height: 53%;
+    margin-top: 3.2%;
+    width: 29%;
+    font-size: 14px;
+}
+.emailbox {
+  position: relative;
+    width: 75%;
+    padding: 6px 3px;
+    margin: 3.2% 1% -7.7% -136%;
+    height: 53%;
+    margin-right: 5px;
+}
+.fourtdiv {
+    margin-bottom: 44px;
+    padding-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+.sub1 {
+    width: 30%;
+    height: 26vh;
+    margin-left: 1%;
+    /* top: 16%; */
+    margin-top: 16%;
+    text-align: center;
+    color: whitesmoke;
+    /* float: left; */
+}
+h1 {
+    font-size: 28px;
+    margin-left: -13px;
+}
+#img1 {
+    width: 70%;
+    margin-left: -17px;
+}
+.p1 {
+    font-size: 14px;
+    width: 84%;
+}
+.sub2 {
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin-top: 16%;
+    /* float: left; */
+    margin-left: -6%;
+}
+#img2 {
+    width: 70%;
+    margin-left: -7px;
+}
+.sub3 {
+    /* float: left; */
+    margin-top: 16%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-left: -8%;
+}
+#img3 {
+    width: 70%;
+    /* padding-left: 5px; */
+    margin-left: -10px;
+}
+.footer {
+    /* margin-top: 75%; */
+    /* width: 100%; */
+    /* background-image: url(../images/wrap-bg.jpg); */
+    /* position: absolute; */
+    padding-top: 119px;
+    /* color: #0f71ba; */
+    /* background: #292828; */
+    /* border-top: 2px solid #0f71ba; */
+    /* background-size: 100% 100%; */
+    /* position: absolute; */
+    /* left: 0px; */
+    /* right: 3px; */
+    margin: 24% 22px 1px -1px;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+.subfooter {
+    width: 20%;
+    /* float: left; */
+    font-size: 29px;
+    margin-top: -9px;
+}
+.firstfooter {
+   
+font-size: 16px;
+   
+margin: -94px 151px -31px 10px;
+   
+width: 64%;
+   
+padding-left: 0px;
+}
+
+.subfooter li {
+    display: -webkit-box;
+    /* font-size: 14px; */
+    /* margin-left: -2px; */
+    margin-top: 2px;
+}
+.subfooter li a {
+    color: white;
+    font-size: 15px;
+    padding-left: -2px;
+    /* padding-top: 16px; */
+    margin-top: 15px;
+}
+.foot {
+    height: 100%;
+}
+.footerh3 {
+    font-size: 9px;
+    margin-top: -13px;
+}
+.footersecond {
+    float: right;
+    /* font-size: 16px; */
+    width: 20%;
+    margin-left: -59px;
+    margin-top: 8%;
+    margin: -84px 12px 9px 35px;
+}
+.footersecond li {
+    display: -webkit-box;
+    padding: 6px 20px 6px 10px;
+    float: left;
+    width: 36%;
+    /* margin-left: -29px; */
+    padding-left: 0px;
+    font-size: -11px;
+}
+.photo-grid {
+    width: 94%;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* flex-wrap: wrap; */
+    margin-top: -94px;
+    flex-direction: row;
+    position: relative;
+    /* order: 1; */
+    /* size: a3; */
+    margin-left: 0px;
+}
+.footerimg {
+   width: 56px;
+   height: 30px;
+   /* display: flex; */
+   /* order: 1; */
+   margin-left: -8px;
+   padding-left: -4px;
+   margin-top: 7px;
+}
+.h3 {
+    margin-left: 8vh;
+    width: 188px;
+    margin-top: -1vh;
+}
+h3 {
+    width: 220px;
+    font-size: 20px;
+}
+@media screen and (min-width:640px) and (max-height:360px){
+    h3 {
+    /*width: 220px;*/
+    font-size: 18px;
+    }
+    .Slidertxt{
+        margin-top: -34%
+    }
+    .button2{
+        margin-left: 166vh
+    }
+}

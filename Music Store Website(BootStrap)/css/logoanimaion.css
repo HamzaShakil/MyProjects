@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+<style>
+    #loader{
+        position: absolute;
+        left: 35%;
+        width:10%;
+        top:30%;
+        height:10%;
+    }
+	 #bar1{
+        position: absolute;
+        bottom:0px;
+        height:2%;
+        left:0px;
+        width:15%;
+        background-color: orange;
+ -webkit-transition: all 0.4s ease;
+ -moz-transition : all 0.4s ease 0s;
+        z-index: 0;
+    }
+    
+    #bar2{
+        position: absolute;
+        bottom:0px;
+        height:2%;
+        left:20%;
+        width:15%;
+        background-color: orange;
+         -webkit-transition: all 0.4s ease;
+        -moz-transition : all 0.4s ease 0s;
+        z-index: 0;
+    }
+    
+    #bar3{
+        position: absolute;
+        bottom:0px;
+        height:2%;
+        left:40%;
+        width:15%;
+        background-color: orange;
+         -webkit-transition: all 0.4s ease;
+        -moz-transition : all 0.4s ease 0s;
+        z-index: 0;
+    }
+    
+    #bar4{
+        position: absolute;
+        bottom:0px;
+        height:2%;
+        left:60%;
+        width:15%;
+        background-color: orange;
+         -webkit-transition: all 0.4s ease;
+        -moz-transition : all 0.4s ease 0s;
+        z-index: 0;
+    }
+
+    #bar5{
+        position: absolute;
+        bottom:0px;
+        height:2%;
+        left:80%;
+        width:15%;
+        background-color: orange;
+         -webkit-transition: all 0.4s ease;
+        -moz-transition : all 0.4s ease 0s;
+        z-index: 0;
+    }
+    
+    #s1,#s2,#s3,#s4,#s5,#s6,#s7,#s8,#s9{
+        height:1%;
+    }

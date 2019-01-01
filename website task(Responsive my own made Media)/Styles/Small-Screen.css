@@ -1,0 +1,263 @@
+body{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstdiv {
+    top: 0px;
+    width: 99%;
+    left: -2px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.firstheading{
+      width: 27%;
+      margin: 9px 50px 3px -1px;
+      font-size: 12px;
+      padding-left: 4px;
+}
+
+
+.firstdiv ul {
+    width: 76vw;
+    margin: -10.1% 29% 3px;
+    height: 29px;
+    /* font-size: 11px; */
+    display: flex;
+    justify-content: flex-start;
+}
+.firstdiv li {
+    border-right: 2px solid;
+}
+.firstdiv ul li a{
+ padding: 8px 6px 28px 18px;
+ padding-left: 7px;
+}
+.firstdiv li a {
+
+display: inline-flex;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 8px;
+}
+#secondiv{
+    width: 100%;
+    height: auto;
+}
+#Slider {
+    margin-top: 4%;
+    width: 99%;
+    height: 49vh;
+}
+.pic {
+    height: 49vh;
+    width: 100%;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 21px;
+    padding: 8px 16px;
+    bottom: -14px;
+    text-align: center;
+    right: 2%;
+    /* top: 39%; */
+    height: 47px;
+    margin-left: 3%;
+}
+.text1, .text2 {
+    font-size: larger;
+    font-size: 11px;
+    text-align: center;
+    left: 19%;
+    width: 58%;
+    margin-top: 1px;
+}
+.sliderbtns {
+    margin-top: -80px;
+}
+.Slidertxt {
+    margin-top: -68%;
+}
+.button1,.button2 {
+    margin-top: 20px;
+    height: 8vh;
+    font-size: 14px;
+    /* top: 26%; */
+    text-align: center;
+    padding-left: 11px;
+    margin-top: -6%;
+    display: flex;
+    justify-content: flex-start;
+}
+.button2 {
+   margin-top: -44px;
+   margin-left: 90.9%;
+   width: 36px;
+}
+.thirddiv {
+    background-image: url(../Images/wrap-bg.jpg);
+    width: 99%;
+    height: 48px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.secondhead {
+    width: 21%;
+    height: 51%;
+    padding: 6px 4px 5px 4px;
+    margin-top: 3.1%;
+    /* border: 1px solid; */
+    font-size: 10px;
+}
+.subscribe {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+    width: 75%;
+    margin-top: 4px;
+}
+.emailbtn {
+    color: white;
+    margin-right: -26%;
+    padding: 9px;
+    /* height: 11.8vh; */
+    background-color: #0f71ba;
+    margin-top: 2.2%;
+    width: 20%;
+    height: 26px;
+    font-size: 10px;
+    margin-left: -8px;
+    margin: 5px -62px 39px 62px;
+}
+.emailbox{
+    position: relative;
+    border-style: inset;
+    border-color: #4B7B9F;
+    /* width: 214%; */
+    padding: 12px 5px;
+    background-color: white;
+    border: 1px;
+    margin: 5px 9px 39px 62px;
+    font-size: 9px;
+    height: 26px;
+     width: 37%;
+
+}
+.fourtdiv {
+    margin-bottom: 44px;
+    padding-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+.sub1 {
+    width: 30%;
+    height: 26vh;
+    margin-left: 1%;
+    /* top: 16%; */
+    margin-top: 16%;
+    text-align: center;
+    color: whitesmoke;
+    /* float: left; */
+}
+h1 {
+    font-size:12px;
+    margin-left: -13px;
+}
+#img1 {
+    width: 48%;
+    margin-left: -17px;
+}
+.p1 {
+    font-size: 8px;
+    width: 84%;
+}
+.sub2 {
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin-top: 16%;
+    /* float: left; */
+    margin-left: -6%;
+}
+#img2 {
+    width: 49%;
+    margin-left: -7px;
+}
+.sub3 {
+    /* float: left; */
+    margin-top: 16%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-left: -8%;
+}
+#img3 {
+    width: 49%;
+    /* padding-left: 5px; */
+    margin-left: -10px;
+}
+.footer {
+    /*width: 320px;*/
+    width: 100%;
+    padding-top: 117px;
+    height: 21vh;
+}
+.subfooter {
+    width: 20%;
+    /* float: left; */
+    font-size: 29px;
+    margin-top: -9px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.firstfooter {
+   
+font-size: 8px;
+margin: -94px 151px -31px 10px;
+width: 64%;
+padding-left: 0px;
+}
+
+.subfooter li {
+    display: -webkit-box;
+    margin-top: 2px;
+}
+.subfooter li a {
+    color: white;
+    font-size: 9px;
+    padding-left: -2px;
+    /* padding-top: 16px; */
+    margin-top: 15px;
+}
+.photo-grid {
+    width: 64%;
+    display: flex;
+    margin-top: -102px;
+    flex-direction: row;
+    position: relative;
+    margin-left: 0px;
+}
+.footerimg {
+   width: 29px;
+   height: 17px;
+   padding-left: -4px;
+   margin-top: 9px;
+   padding-left: -178px;
+}
+.h3 {
+    margin-left: 4px;
+    width: 75px;
+    margin-top: 0px;
+}
+h3 {
+    width: 3px;
+    font-size: 10px;
+}
